@@ -28,4 +28,4 @@ jobs:
           EMAIL: ${{ secrets.EMAIL }}
           PASS: ${{ secrets.PASS }}
           TO: ${{ secrets.TO_EMAIL }}
-        run: node bin-reminder.js
+        run: node binReminder.js
