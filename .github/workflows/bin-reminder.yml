@@ -27,5 +27,5 @@ jobs:
           ADDRESS_TEXT: ${{ secrets.ADDRESS_TEXT }}
           EMAIL: ${{ secrets.EMAIL }}
           PASS: ${{ secrets.PASS }}
-          TO: ${{ secrets.TO_EMAIL }}
+          TO_EMAIL: ${{ secrets.TO_EMAIL }}
         run: node binReminder.js
